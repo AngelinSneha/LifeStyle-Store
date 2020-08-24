@@ -1,0 +1,426 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+.parallax { 
+    background: url('img00.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+#cont{
+    min-height: 600px;
+}
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(img/intro.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:black;
+    
+}
+
+
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"], input[type="email"], input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+.ar:hover
+{
+   color: #0F4C75;
+}
+.are:hover
+{
+   color: #E7DFD5;
+}
+#jump {
+    width:80%;
+}
+#sss {
+    border-width: 3px;
+}
+#ssss {
+    border-width: 3px;
+}
+#ss {
+    border-width: 3px;
+}
+#s {
+    border-width: 3px;
+}
+#l {
+    border-width: 3px;
+}
+#ll {
+    border-width: 3px;
+}#lll {
+    border-width: 3px;
+}#llll {
+    border-width: 3px;
+}
+#fonts {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+/*-----Testimonial-------*/
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* ------testimonial  close-------*/
+/* brand */
+.slider
+{
+	height :250px;
+	width:100%;
+	/*background-image:linear-gradient(to bottom right,rgba(0,0,0,0.9),rgba(28,17,56,0.9),rgba(119,120,122,0.9));*/
+	margin: 0;
+
+}
+@media (max-width:500px) {
+    .inside1  {
+        height:60px;
+	width:105px;
+        margin: 10px;
+        float:left;
+        background-image: url("bingo.png");
+        background-size:105px 60px;
+        
+    }
+    .inside2  {
+        height:60px;
+	width:105px;
+        margin: 10px;
+        float:left;
+        background-image: url("dabur.png");
+        background-size:105px 60px;
+    }
+    .inside3  {
+        height:60px;
+	width:105px;
+        margin: 10px;
+        float:left;
+        background-image: url("fair&lovely.png");
+        background-size:105px 60px;
+    }
+    
+}
+@media screen and (min-width:501px) and (max-width:3000px) {
+.inside1
+{
+	height:95px;
+	width:135px;
+	float:left;
+	margin: 40px 30px 20px 30px ;
+	
+	background-image: url("bingo.png");
+	background-size:135px 90px; 
+	animation-name: slider1;
+	animation-duration: 11s;
+	position: absolute;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 5;
+
+	
+	
+	
+}
+.inside2
+{
+	height:95px;
+	width:135px;
+	float:left;
+	margin: 40px 30px 20px 30px ;
+
+	background-image: url("dabur.png");
+	background-size:135px 90px; 
+	animation-name: slider2;
+	animation-duration: 11s;
+	position: absolute;
+	animation-fill-mode: forwards;
+animation-iteration-count: 5;
+
+
+}
+
+.inside3
+{
+	height:95px;
+	width:135px;
+	float:left;
+	margin: 40px 30px 20px 30px ;
+
+	background-image: url("fair&lovely.png");
+	background-size:135px 90px;  
+	animation-name: slider3;
+	animation-duration: 11s;
+	position: absolute;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 5;
+	
+}
+.inside4
+{
+	height:95px;
+	width:135px;
+	float:left;
+	margin: 40px 30px 20px 30px ;
+	
+	background-image: url("fortune.png");
+	background-size:135px 90px; 
+	animation-name: slider4;
+	animation-duration: 11s;
+	position: absolute;
+	animation-fill-mode:forwards; 
+	animation-iteration-count: 5;
+
+}
+.inside5
+{
+	height:95px;
+	width:135px;
+	float:left;
+	margin: 40px 30px 20px 30px ;
+	
+	background-image: url("adidas.jpg");
+	background-size:135px 90px; 
+	animation-name: slider5;
+	animation-duration: 11s;
+	position: absolute;
+	animation-fill-mode:forwards; 
+	animation-iteration-count: 5;
+	
+
+}
+.inside6
+{
+	height:95px;
+	width:135px;
+	float:left;
+	margin: 40px 30px 20px 30px ;
+	
+	background-image: url("gap.jpg");
+	background-size:135px 90px; 
+	animation-name: slider6;
+	animation-duration: 11s;
+	position: absolute;
+	animation-fill-mode:forwards; 
+	animation-iteration-count: 5;
+	
+	
+}
+}
+
+@keyframes slider1{
+	0% {left:0vw;}
+	25%{left:20vw;}
+	50%{left:40vw;}
+	75%{left:60vw;}
+	100%{left:80vw;}
+
+}
+
+
+@keyframes slider2{
+	0% {left:20vw;}
+	25%{left:40vw;}
+	50%{left:60vw;}
+	75%{left:80vw;}
+	100%{left:100vw;}
+}
+@keyframes slider3{
+	0% {left:40vw;}
+	25%{left:60vw;}
+	50%{left:80vw;}
+	75%{left:100vw;}
+	100%{left:0vw;}
+}
+@keyframes slider4{
+	0% {left:60vw;}
+	25%{left:80vw;}
+	50%{left:100vw;}
+	75%{left:0vw;}
+	100%{left:20vw;}
+}
+@keyframes slider5{
+	0% {right:20vw;}
+	25%{right:0vw;}
+	50%{left:0vw;}
+	75%{left:20vw;}
+	100%{left:40vw;}
+
+}
+@keyframes slider6{
+	0% {right:0vw;}
+	25%{left:0vw;}
+	50%{left:20vw;}
+	75%{left:40vw;}
+	100%{left:60vw;}
+}
+@media only screen and (max-width:500px) {
+    .mm {
+    width: 100%;
+  }
+}
+.thumb:hover {
+    border-style: solid;
+    
+}
